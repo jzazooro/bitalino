@@ -26,6 +26,15 @@ def txt_csv(RUTA_TXT, RUTA_CSV):
     df.to_csv(RUTA_CSV, index=False)
     
 if __name__=="__main__":
-    RUTA_TXT = "docs/eda/txt/eda_miguel.txt"
-    RUTA_CSV = "docs/eda/csv/eda_miguel.csv"
+    RUTA_TXT = "docs/ecg/txt/ecg_miguel.txt"
+    RUTA_CSV = "docs/ecg/csv/ecg_miguel.csv"
+    txt_csv(RUTA_TXT, RUTA_CSV)
+    RUTA_TXT = "docs/ecg/txt/ecg_zazo.txt"
+    RUTA_CSV = "docs/ecg/csv/ecg_zazo.csv"
+    txt_csv(RUTA_TXT, RUTA_CSV)
+    RUTA_TXT = "docs/ecg/txt/ecg_nacho.txt"
+    RUTA_CSV = "docs/ecg/csv/ecg_nacho.csv"
+    txt_csv(RUTA_TXT, RUTA_CSV)
+    RUTA_TXT = "docs/ecg/txt/ecg_gonzalo.txt"
+    RUTA_CSV = "docs/ecg/csv/ecg_gonzalo.csv"
     txt_csv(RUTA_TXT, RUTA_CSV)
