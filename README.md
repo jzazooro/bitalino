@@ -20,13 +20,10 @@ las constantes vitales que tendremos y poder anteponernos a ciertas patologias, 
 # ELECTROMIOGRAMA (EMG)
 El electromiograma (EMG) registra la actividad eléctrica de los músculos. Las mediciones pueden indicar la fuerza y el estado de los músculos. 
 Pueden ser utiles para identificar problemas musculares.
-(GRAFICA DE CADA INTEGRANTE Y ANALISIS DE LA GRAFICA)
 
 # ELECTROCARDIOGRAMA (ECG)
 El electrocardiograma (ECG) registra la actividad eléctrica del corazón. Las mediciones ayudan a detectar anomalías cardíacas, ritmo cardíaco y salud del corazón.
-(GRAFICA DE CADA INTEGRANTE Y ANALISIS DE LA GRAFICA)
 
 # ACTIVIDAD ELECTRODERMAL (EDA)
 La actividad electrodermal (EDA) registra las variaciones de la conductividad de la piel. Las mediciones ayudan a detectar anomalias relacionadas con la sudoración. 
 Indica respuestas emocionales o de estrés.
-(GRAFICA DE CADA INTEGRANTE Y ANALISIS DE LA GRAFICA)
