@@ -7,30 +7,30 @@ def analisis(file_path, nombre):
     data['intervalos_ajustados'] = range(0, len(data))
 
     # Nos quedamos solo con 600 filas
-    data = data[:600]
+    
 
     # Graficamos nuevamente utilizando los intervalos ajustados
     plt.figure(figsize=(12, 6))
-    plt.plot(data['intervalos_ajustados'], data['canal5'], label='ECG', color='blue')
+    plt.plot(data['intervalos_ajustados'], data['canal5'], label='emg', color='blue')
     # Añadimos títulos y etiquetas
-    plt.title('Series Temporales de ECG')
+    plt.title('Series Temporales de EMG')
     plt.xlabel('Intervalos Ajustados')
-    plt.ylabel('Valores de ECG')
+    plt.ylabel('Valores de EMG')
     plt.legend()
     # Guardamos la gráfica
     plt.savefig(nombre)
 
 
 if __name__=="__main__":
-    file_path = "docs/ecg/csv/ecg_gonzalo.csv"
-    nombre = "docs/ecg/graficas/ecg_gonzalo.png"
+    file_path = "docs/emg/csv/emg_gonzalo.csv"
+    nombre = "docs/emg/graficas/emg_gonzalo.png"
     analisis(file_path, nombre)
-    file_path = "docs/ecg/csv/ecg_zazo.csv"
-    nombre = "docs/ecg/graficas/ecg_zazo.png"
+    file_path = "docs/emg/csv/emg_zazo.csv"
+    nombre = "docs/emg/graficas/emg_zazo.png"
     analisis(file_path, nombre)
-    file_path = "docs/ecg/csv/ecg_miguel.csv"
-    nombre = "docs/ecg/graficas/ecg_miguel.png"
+    file_path = "docs/emg/csv/emg_miguel.csv"
+    nombre = "docs/emg/graficas/emg_miguel.png"
     analisis(file_path, nombre)
-    file_path = "docs/ecg/csv/ecg_nacho.csv"
-    nombre = "docs/ecg/graficas/ecg_nacho.png"
+    file_path = "docs/emg/csv/emg_nacho.csv"
+    nombre = "docs/emg/graficas/emg_nacho.png"
     analisis(file_path, nombre)
