@@ -30,16 +30,3 @@ El electrocardiograma (ECG) registra la actividad eléctrica del corazón. Las m
 La actividad electrodermal (EDA) registra las variaciones de la conductividad de la piel. Las mediciones ayudan a detectar anomalias relacionadas con la sudoración. 
 Indica respuestas emocionales o de estrés.
 (GRAFICA DE CADA INTEGRANTE Y ANALISIS DE LA GRAFICA)
-
-# ELECTROENCEFALOGRAMA (EEG)
-
-El electroencefalograma (EEG) registra la actividad eléctrica del cerebro. Las mediciones ayudan a detectar anomalías neurológicas, estudiar el sueño y la cognición.
-(GRAFICA DE CADA INTEGRANTE Y ANALISIS DE LA GRAFICA)
-
-# ACELEROMETRO (ACC)
-El acelerómetro (ACC) mide y registra movimientos y orientación en el espacio. Las mediciones son útiles para analizar actividad física y postura.
-(GRAFICA DE CADA INTEGRANTE Y ANALISIS DE LA GRAFICA)
-
-# LUMINOSIDAD (LUX)
-El sensor de luminosidad (LUX) mide y registra la intensidad de la luz en el ambiente. Las mediciones son útiles para estudiar la exposición a la luz y sus efectos en comportamientos y bienestar.
-(GRAFICA DE CADA INTEGRANTE Y ANALISIS DE LA GRAFICA)
