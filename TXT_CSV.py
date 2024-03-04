@@ -26,6 +26,6 @@ def txt_csv(RUTA_TXT, RUTA_CSV):
     df.to_csv(RUTA_CSV, index=False)
     
 if __name__=="__main__":
-    RUTA_TXT = "docs/data/eda/eda_zazo.txt"
-    RUTA_CSV = "docs/data/csv/eda_zazo.csv"
+    RUTA_TXT = "docs/eda/txt/eda_miguel.txt"
+    RUTA_CSV = "docs/eda/csv/eda_miguel.csv"
     txt_csv(RUTA_TXT, RUTA_CSV)
